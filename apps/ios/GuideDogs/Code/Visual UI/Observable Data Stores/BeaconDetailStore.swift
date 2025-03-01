@@ -12,7 +12,7 @@ import Combine
 class BeaconDetailStore: ObservableObject {
     
     // MARK: Properties
-    
+    //here is a change
     @Published var beacon: BeaconDetail?
     
     @Published var isRouteTransitioning: Bool = false
