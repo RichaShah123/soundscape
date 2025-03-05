@@ -19,7 +19,9 @@ class AppReviewHelper {
     
     static let minimumAppUsesBeforePrompt = 3
     
-    static let writeReviewURL = URL(string: "https://apps.apple.com/app/id\(AppContext.appStoreId)?action=write-review")!
+//    static let writeReviewURL = URL(string: "https://apps.apple.com/app/id\(AppContext.appStoreId)?action=write-review")!
+    static let writeReviewURL = URL(string: "https://www.google.com")!
+    
     
     // MARK: Methods
     
