@@ -44,7 +44,7 @@ class PushNotificationManager: NSObject {
     private var userId: String?
     private var subscribers: [AnyCancellable] = []
     
-    private var onboardingDidComplete = false
+    private var onboardingDidComplete = true
     private var appDidInitialize = false
     private var pendingPushNotification: PushNotification?
     
